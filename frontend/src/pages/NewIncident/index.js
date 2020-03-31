@@ -64,13 +64,12 @@ export default function NewIncident() {
             value={description}
             onChange={e => setDescription(e.target.value)}
           />
+
           <input
-            placeholder="whatsapp"
+            placeholder="Valor em reais"
             value={value}
             onChange={e => setValue(e.target.value)}
           />
-
-          <input placeholder="Valor em reais" />
 
           <button className="button" type="submit">
             Cadastrar
